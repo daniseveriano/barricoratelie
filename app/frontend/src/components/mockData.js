@@ -3,7 +3,6 @@
 export const ceramicPieces = [
   {
     id: 1,
-    title: "Prato Terra Seca",
     description: "Prato artesanal com acabamento em terra seca e detalhes em azul turquesa",
     category: "Pratos",
     image: "/images/2025-01-14 (5).webp",
@@ -11,7 +10,6 @@ export const ceramicPieces = [
   },
   {
     id: 2,
-    title: "Prato Redondo Azul",
     description: "Prato redondo com vidrando azul profundo e detalhes únicos",
     category: "Pratos", 
     image: "/images/2025-01-14 (4).webp",
@@ -19,7 +17,6 @@ export const ceramicPieces = [
   },
   {
     id: 3,
-    title: "Prato Orgânico Verde",
     description: "Forma orgânica com acabamento verde-azulado artesanal",
     category: "Pratos",
     image: "/images/2025-01-14 (2).webp",
@@ -27,7 +24,6 @@ export const ceramicPieces = [
   },
   {
     id: 4,
-    title: "Conjunto de Tigelas",
     description: "Tigelas empilháveis com vidrado degradê azul-verde", 
     category: "Tigelas",
     image: "/images/2025-01-14.webp",
@@ -35,7 +31,6 @@ export const ceramicPieces = [
   },
   {
     id: 5,
-    title: "Tigela Pequena Verde",  
     description: "Tigela individual com acabamento verde jade",
     category: "Tigelas",
     image: "/images/2025-01-14 (6).webp",
@@ -43,7 +38,6 @@ export const ceramicPieces = [
   },
   {
     id: 6,
-    title: "Cumbuca Rústica",
     description: "Cumbuca com textura única e vidrado terra cotta",
     category: "Cumbucas", 
     image: "/images/2025-01-14 (7).webp",
@@ -51,7 +45,6 @@ export const ceramicPieces = [
   },
   {
     id: 7,
-    title: "Cumbuca Artesanal",
     description: "Cumbuca grande com alças confortáveis e acabamento único",
     category: "Cumbucas",
     image: "/images/2025-01-14 (3).webp",
@@ -59,7 +52,6 @@ export const ceramicPieces = [
   },
   {
     id: 8,
-    title: "Cumbuca Decorativa",
     description: "Peça decorativa com formas orgânicas e vidrado especial",
     category: "Decoração",
     image: "/images/2025-01-14 (1).webp", 

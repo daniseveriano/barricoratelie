@@ -11,7 +11,7 @@ const Portfolio = () => {
     : ceramicPieces.filter(piece => piece.category === selectedCategory);
 
   const handleWhatsAppOrder = (piece) => {
-    const message = `Olá! Gostaria de saber mais sobre a peça "${piece.title}". Está disponível?`;
+    const message = `Olá! Gostaria de saber mais sobre esta peça: "${piece.description}". Está disponível?`;
     const whatsappUrl = `https://wa.me/5527998232603?text=${encodeURIComponent(message)}`;
     window.open(whatsappUrl, '_blank');
   };
@@ -91,11 +91,6 @@ const Portfolio = () => {
 
               {/* Content */}
               <div className="p-6">
-                <div className="mb-3">
-                  <h3 className="text-xl font-semibold text-stone-800 group-hover:text-orange-800 transition-colors duration-200">
-                    {piece.title}
-                  </h3>
-                </div>
                 <p className="text-stone-600 text-sm mb-4 line-clamp-2">
                   {piece.description}
                 </p>
@@ -122,17 +117,12 @@ const Portfolio = () => {
               <div className="aspect-square">
                 <img
                   src={selectedPiece.image}
-                  alt={selectedPiece.title}
+                  alt={selectedPiece.description}
                   className="w-full h-full object-cover rounded-t-2xl"
                 />
               </div>
               <div className="p-8">
-                <div className="mb-4">
-                  <h3 className="text-2xl font-serif text-stone-800">
-                    {selectedPiece.title}
-                  </h3>
-                </div>
-                <p className="text-stone-600 mb-6">
+                <p className="text-stone-600 mb-6 text-lg">
                   {selectedPiece.description}
                 </p>
                 <div className="flex items-center justify-between">
